@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #2a1b5c;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #720d7b;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.tagline {
+    margin-bottom: 5px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #d09adf;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #444;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: #3b225f;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #f1d6f5;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #d09adf;
+    line-height: 1.6;
+}
+
+#certimg img {
+    width: 500px;
+    margin: 0 5%;
+}
+
+#certimg p  {
+    margin: 0 5%;
+}
+
+#certimg > p > a {
+    text-decoration: none;
+    color: #d09adf;
+}
+
+footer {
+    background-color: #720d7b;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer .footer-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer .footer-content p {
+    font-size: 1.2rem;
+    color: #d09adf;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url("placeholder.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    border: 5px solid rgb(195, 35, 216);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header .tagline {
+        font-size: 1rem;
+    }
+
+    .navbar nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
